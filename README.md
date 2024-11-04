@@ -1,19 +1,19 @@
 Membuat Dokumen HTML dengan nama file
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <title>Mengenal JavaScript</title>
-  </head>
-  <body>
-      <h1>Pengenalan JavaScript</h1>
-      <h3>Contoh dokument.write dan console.log</h3>
-      <script>
-          document.write("Hello Word");
-          console.log("Hello Word");
-      </script>    
-  </body>
-  </html>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <title>Mengenal JavaScript</title>
+      </head>
+      <body>
+          <h1>Pengenalan JavaScript</h1>
+          <h3>Contoh dokument.write dan console.log</h3>
+          <script>
+              document.write("Hello Word");
+              console.log("Hello Word");
+          </script>    
+      </body>
+      </html>
   
 ![Screenshot 2024-11-04 120850](https://github.com/user-attachments/assets/20f68830-d0c3-47f7-8917-cd9b4381ac2d)
 
