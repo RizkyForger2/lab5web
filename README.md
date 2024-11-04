@@ -40,22 +40,23 @@ Kode JavaScript ini menggunakan document.write untuk menampilkan "Hello World" l
 Kode JavaScript ini memakai window.alert untuk menampilkan kotak pesan (alert box) yang berisi teks "ini merupakan pesan untuk anda" begitu halaman dimuat. Pengguna harus menutup kotak pesan ini agar dapat melanjutkan interaksi dengan halaman.
 
 3. Pemakaian method dalam objek
-     <!DOCTYPE html>
-     <html lang="en">
-     <head>
-         <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Skrip JavaScript</title>
-     </head>
-     <body>
-         percobaan memakai JavaScript:<br>
-         <script language = "javascript">
-             document.write("Selamat mencoba Javascript<br>");
-             document.write("Semoga sukses!");
-         </script>
-         
-     </body>
-     </html>
+
+                 <!DOCTYPE html>
+                 <html lang="en">
+                 <head>
+                     <meta charset="UTF-8">
+                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                     <title>Skrip JavaScript</title>
+                 </head>
+                 <body>
+                     percobaan memakai JavaScript:<br>
+                     <script language = "javascript">
+                         document.write("Selamat mencoba Javascript<br>");
+                         document.write("Semoga sukses!");
+                     </script>
+                     
+                 </body>
+                 </html>
 
      ![Screenshot 2024-11-04 121106](https://github.com/user-attachments/assets/51218854-a2a1-4de3-8181-5c91635c7a2e)
 
@@ -63,21 +64,21 @@ Kode JavaScript ini menampilkan teks "selamat mencoba javascript" diikuti dengan
 
 Pemakaian Prompt
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pemasukan data</title>
-    </head>
-    <script language = "javascript">
-        var nama = prompt("Siapa nama anda?","Masukkan nama anda");
-        document.write("hai, "+ nama);
-    </script>
-    <body>
-        
-    </body>
-    </html>
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Pemasukan data</title>
+                </head>
+                <script language = "javascript">
+                    var nama = prompt("Siapa nama anda?","Masukkan nama anda");
+                    document.write("hai, "+ nama);
+                </script>
+                <body>
+                    
+                </body>
+                </html>
     
 
 ![Screenshot 2024-11-04 121306](https://github.com/user-attachments/assets/a6e3df63-8be4-46b6-82f9-3a144a4b0947)
@@ -90,19 +91,19 @@ Pemakaian Prompt
 
 5. Pembuatan fungsi dan cara pemanggilannya
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <title>Contoh program javascript </title>
-      <script language = "javascript">
-          function pesan(){
-              alert("Memanggil javascript lewat body onload")
-          }
-      </script>
-  </head>
-  <body onload=pesan()>
-  </body>
-  </html>
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                  <title>Contoh program javascript </title>
+                  <script language = "javascript">
+                      function pesan(){
+                          alert("Memanggil javascript lewat body onload")
+                      }
+                  </script>
+              </head>
+              <body onload=pesan()>
+              </body>
+              </html>
 
   ![Screenshot 2024-11-04 121422](https://github.com/user-attachments/assets/d219ac21-6a1d-4f35-96ae-c54dac825f74)
 
